@@ -106,4 +106,5 @@ password = input("Parol: ")
 new_id = input("Yangi talaba raqami: ")
 
 talaba.update_student_id(new_id,username,password)
+
 print("Hozirgi talaba raqami: ",talaba.student_id)
